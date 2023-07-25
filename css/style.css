@@ -1,0 +1,18 @@
+body {
+    background-color: #FFDCB9;
+        background-image: url('images/vaishalilogo.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom left;
+      }
+    
+h1 {
+    color: black;
+    text-align: side;
+  }
+  
+}
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
