@@ -1,10 +1,6 @@
 body {
     background-color: #FFDCB9;
-        background-image: url('images/vaishalilogo.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: bottom left;
-      }
+     
     
 h1 {
     color: black;
@@ -15,4 +11,20 @@ h1 {
   p {
     font-family: verdana;
     font-size: 20px;
+  }
+  .about {
+    position: absolute;
+    top: 9px;
+    left: 20px;
+    text-transform: uppercase;
+  }
+  about-wrapper {
+    position: relative;
+    background-color: var(--color-darkgoldenrod);
+    border: 1px solid var(--color-darkgray);
+    box-sizing: border-box;
+    width: 112px;
+    height: 42px;
+    overflow: hidden;
+    flex-shrink: 0;
   }
